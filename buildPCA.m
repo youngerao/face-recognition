@@ -7,7 +7,7 @@ for iter=1:nClass
     [~,tmpCol]=size(pattern(iter).feature);
     nSamples(iter)=tmpCol;
 end
-K=30;
+K=35;
 
 [Y,U]=PCA(nStr,K);
 n=0;
