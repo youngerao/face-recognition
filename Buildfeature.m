@@ -5,7 +5,7 @@ folder2='ORL';
 nClass=40;
 nSamples=zeros(nClass,1);
 for i=1:nClass
-    nSamples(i)=7;
+    nSamples(i)=10;
 end
 
 for i=1:nClass

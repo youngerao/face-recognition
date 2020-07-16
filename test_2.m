@@ -1,6 +1,6 @@
 clear all;clc;
 
-str='人脸样本\ORL\s32_6.bmp';
+str='人脸样本\ORL\s31_6.bmp';
 load('data.mat' ,'train_x', 'train_y');
 strSamples='patternPca';
 load(strSamples,'patternPca');
